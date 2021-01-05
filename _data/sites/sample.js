@@ -1,10 +1,12 @@
 module.exports = {
-	name: "Sample", // optional, falls back to object key
-	description: "The default sites that get tested",
+	name: "CoderPad", // optional, falls back to object key
+	description: "Key pages to speed test",
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.speedlify.dev/"
+		"https://coderpad.io/",
+		"https://coderpad.io/register",
+		"https://coderpad.io/getting-started-interviewers",
 	]
 };
