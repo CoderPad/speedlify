@@ -3,7 +3,7 @@ module.exports = {
 	description: "Key pages to speed test",
 	skip: false,
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 60 * 12, // 12 hours
 		freshChrome: "site",
 	},
 	urls: [
